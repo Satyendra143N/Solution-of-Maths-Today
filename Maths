@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int t;
+cin>>t;
+while(t--)
+{
+int N,K;
+cin>>N>>K;
+for(int i=0;N>K;i++)
+{
+if(N>K)
+{
+N=N-K;
+}
+else
+{
+break;
+}
+}
+cout<<N<<endl;
+}
+}
